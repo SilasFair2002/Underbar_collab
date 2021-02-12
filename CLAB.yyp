@@ -1,9 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"spr_fp_down","path":"sprites/spr_fp_down/spr_fp_down.yy",},"order":4,},
+    {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":8,},
+    {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":0,},
     {"id":{"name":"scr_test","path":"scripts/scr_test/scr_test.yy",},"order":0,},
-    {"id":{"name":"spr_bigman","path":"sprites/spr_bigman/spr_bigman.yy",},"order":2,},
-    {"id":{"name":"spr_fella","path":"sprites/spr_fella/spr_fella.yy",},"order":1,},
-    {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},"order":0,},
+    {"id":{"name":"spr_fp_right","path":"sprites/spr_fp_right/spr_fp_right.yy",},"order":6,},
+    {"id":{"name":"spr_mp_left","path":"sprites/spr_mp_left/spr_mp_left.yy",},"order":0,},
+    {"id":{"name":"spr_fp_left","path":"sprites/spr_fp_left/spr_fp_left.yy",},"order":5,},
+    {"id":{"name":"spr_fp_up","path":"sprites/spr_fp_up/spr_fp_up.yy",},"order":7,},
+    {"id":{"name":"spr_mp_up","path":"sprites/spr_mp_up/spr_mp_up.yy",},"order":3,},
+    {"id":{"name":"spr_mp_down","path":"sprites/spr_mp_down/spr_mp_down.yy",},"order":2,},
+    {"id":{"name":"spr_mp_down_1","path":"sprites/spr_mp_down_1/spr_mp_down_1.yy",},"order":9,},
+    {"id":{"name":"obj_player_teen","path":"objects/obj_player_teen/obj_player_teen.yy",},"order":1,},
+    {"id":{"name":"spr_mp_right","path":"sprites/spr_mp_right/spr_mp_right.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
