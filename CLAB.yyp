@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_fella","path":"sprites/spr_fella/spr_fella.yy",},"order":1,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
