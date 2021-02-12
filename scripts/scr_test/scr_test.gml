@@ -2,4 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_test(text){
 	show_debug_message(text)
+	//did it work?
 }
