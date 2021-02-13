@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_mp_down_1",
-    "path": "sprites/spr_mp_down_1/spr_mp_down_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
