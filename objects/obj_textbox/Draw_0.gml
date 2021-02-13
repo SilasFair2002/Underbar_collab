@@ -52,3 +52,6 @@ for(var i = 0; i<=n; i++){
 		height+=10; //go to the next line
 	}
 }
+
+//i'm drawing the face in a script so as not to complicate things
+scr_draw_face(text[index].speaker, 3);

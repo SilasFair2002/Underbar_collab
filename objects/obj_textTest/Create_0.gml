@@ -4,7 +4,7 @@ txt[2] = "Now just to text this is going not have any effect at all! None whatso
 txt[3] = "NOW THIS TEXT is shaking LIKE I AM angry or something like that"
 
 //creates the array of text objects (obj_text)
-text = scr_init_text(txt);
+text = scr_init_text(txt,"mp");
 
 text[1].effect = txtFX.wave
 text[3].effect = txtFX.shake

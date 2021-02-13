@@ -5,3 +5,7 @@ n = 0 //how many characters through current text it is
 timer = 0 //counts up and times the text appearing
 
 t = 0 //timer for text effects
+
+subImg = 0 //sub image for the face box
+
+scr_textbox_position()
