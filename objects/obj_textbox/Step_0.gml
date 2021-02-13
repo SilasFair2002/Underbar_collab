@@ -18,13 +18,16 @@ if(n=string_length(text[index].text)-1 and keyboard_check_pressed(vk_space)){
 	n = 0;
 	timer = 0;
 	index++;
-	if(index>=array_length(text)){
+	charSpeed = 1
+	if(index>=array_length(text)){ //if the text is over, destroy textbox
 		instance_destroy()
+	}else{
+		var splitText = text[index]
+		chars = scr_split_string(splitText.text) //the string split into characters
 	}
-	var splitText = text[index]
-	chars = scr_split_string(splitText.text) //the string split into characters
 }else if(n<string_length(text[index].text)-1 and keyboard_check_pressed(vk_space) and n!=0){
-	n = string_length(text[index].text)-1
+	//this would be skipping to the end but I havent implemented it so it works yet
+	//(the line breaks calculate as the text writes but it doesnt work here so)
 }
 
 t++
