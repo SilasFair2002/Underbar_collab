@@ -11,6 +11,8 @@ if(global.can_move){
 		state = scr_player_aim
 		image_index = 0
 	}
+	//animate walking
+	image_speed = 1
 	//movement
 	if (global.gender = "male"){//if the player is a male
 		if(up){

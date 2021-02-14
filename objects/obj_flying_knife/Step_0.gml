@@ -1,4 +1,8 @@
-rot += spin_spd //rotate at assigned spin speed
+if (hspeed <= 0){
+	rot += spin_spd
+}else{
+	rot -= spin_spd
+}//rotate at assigned spin speed
 depth = -y
 //collide with solid objects
 if place_meeting(x,y,obj_solid){
