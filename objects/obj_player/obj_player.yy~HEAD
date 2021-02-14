@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mp_down",
-    "path": "sprites/spr_mp_down/spr_mp_down.yy",
+    "name": "spr_fp_down",
+    "path": "sprites/spr_fp_down/spr_fp_down.yy",
   },
   "solid": false,
   "visible": true,
