@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Fighting",
-    "path": "folders/Sprites/Player/Fighting.yy",
+    "path": "folders/Sprites/Player/Male/Fighting.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mp_down_throw",

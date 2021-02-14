@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"067608af-a3d5-40a2-86e6-8683b30ce15f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Female",
+    "path": "folders/Sprites/Player/Female.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fp_right",

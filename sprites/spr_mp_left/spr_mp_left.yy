@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1ee3e38-905f-4ac5-9c8f-77d31dd1d8bb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Male",
+    "path": "folders/Sprites/Player/Male.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mp_left",
