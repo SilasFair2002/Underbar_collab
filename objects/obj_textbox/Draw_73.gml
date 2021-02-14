@@ -39,15 +39,21 @@ for(var i = 0; i<=n; i++){
 	
 	width+=string_width(chars[i])
 	if(width>drawWidth){ //if the text is too long
-		for(var j = n; j>0; j--){ //loops backwards through the array
-			if(chars[j] = " "){ //if the character is a space
-				chars[j] = "\n" //replace it with a new line character
-				break; //end the loop if it successfully does it
+		
+		if(!skipped){ //normal operation
+			for(var j = n; j>0; j--){ //loops backwards through the array
+				if(chars[j] = " "){ //if the character is a space
+					chars[j] = "\n" //replace it with a new line character
+					break; //end the loop if it successfully does it
+				}
 			}
 		}
+		
+		
 	}
 	
 	if(chars[i] = "\n"){//if it is the new line character
+		show_debug_message(skipped)
 		width = 0;
 		height+=10; //go to the next line
 	}

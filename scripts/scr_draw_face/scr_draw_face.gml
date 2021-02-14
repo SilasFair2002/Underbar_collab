@@ -9,9 +9,12 @@ function scr_draw_face(speaker, iter){
 		subImg = 0 //wrap subimage or if it is on the last character set it to 0
 	}
 	
-	for(var i = 0; i<iter; i++){
-		var val = (i/(iter-1))*255
-		var color = make_color_rgb(val,val,val) //fade from black to full color
-		draw_sprite_ext(sprite,subImg,x+(i*5),y,1.5,1.5,0,color,1)//draw the sprite
-	}
+	//for(var i = 0; i<iter; i++){
+	//	var val = (i/(iter-1))*255
+	//	var color = make_color_rgb(val,val,val) //fade from black to full color
+	//	draw_sprite_ext(sprite,subImg,x+(i*5),y,1.5,1.5,0,color,(val/255)+0.1)//draw the sprite
+	//}
+	//might try this again later
+	
+	draw_sprite_ext(sprite,subImg,x,y,1.5,1.5,0,c_white,1);
 }

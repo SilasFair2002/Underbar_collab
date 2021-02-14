@@ -9,5 +9,4 @@ function scr_textbox_position(){
 	x = v_x+((v_w-sprite_width)/2)
 	y = (v_y+v_h)-(inset+sprite_height)
 	
-	show_debug_message(v_h)
 }
