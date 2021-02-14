@@ -55,7 +55,7 @@ for(var i = 0; i<=n; i++){
 	if(chars[i] = "\n"){//if it is the new line character
 		show_debug_message(skipped)
 		width = 0;
-		height+=10; //go to the next line
+		height+=12; //go to the next line
 	}
 }
 

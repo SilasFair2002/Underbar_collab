@@ -26,3 +26,4 @@ text[2].speaker = "mp"
 text[5].speaker = "mp"
 text[8].speaker = "mp"
 text[8].effect = txtFX.shake
+text[1].spd = 12
