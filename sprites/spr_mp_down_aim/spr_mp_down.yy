@@ -72,7 +72,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_mp_down","path":"sprites/spr_mp_down/spr_mp_down.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_mp_down",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

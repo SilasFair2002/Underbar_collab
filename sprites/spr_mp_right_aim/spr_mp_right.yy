@@ -72,7 +72,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_mp_right","path":"sprites/spr_mp_right/spr_mp_right.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_mp_right",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
