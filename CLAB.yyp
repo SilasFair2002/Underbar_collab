@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_fp_down","path":"sprites/spr_fp_down/spr_fp_down.yy",},"order":4,},
+    {"id":{"name":"spr_angry_walk","path":"sprites/spr_angry_walk/spr_angry_walk.yy",},"order":17,},
     {"id":{"name":"scr_player_aim","path":"scripts/scr_player_aim/scr_player_aim.yy",},"order":6,},
     {"id":{"name":"spr_mp_left_aim","path":"sprites/spr_mp_left_aim/spr_mp_left_aim.yy",},"order":1,},
     {"id":{"name":"spr_blood_puddle","path":"sprites/spr_blood_puddle/spr_blood_puddle.yy",},"order":0,},
@@ -35,11 +36,11 @@
     {"id":{"name":"spr_fp_left","path":"sprites/spr_fp_left/spr_fp_left.yy",},"order":0,},
     {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"order":13,},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"order":0,},
-    {"id":{"name":"obj_player_1","path":"objects/obj_player_1/obj_player_1.yy",},"order":8,},
     {"id":{"name":"scr_textbox_position","path":"scripts/scr_textbox_position/scr_textbox_position.yy",},"order":4,},
     {"id":{"name":"spr_fp_face","path":"sprites/spr_fp_face/spr_fp_face.yy",},"order":2,},
     {"id":{"name":"scr_player_throw","path":"scripts/scr_player_throw/scr_player_throw.yy",},"order":7,},
     {"id":{"name":"spr_mp_up_aim","path":"sprites/spr_mp_up_aim/spr_mp_up_aim.yy",},"order":3,},
+    {"id":{"name":"obj_angry_man_die","path":"objects/obj_angry_man_die/obj_angry_man_die.yy",},"order":7,},
     {"id":{"name":"spr_mp_face","path":"sprites/spr_mp_face/spr_mp_face.yy",},"order":1,},
     {"id":{"name":"spr_fp_up","path":"sprites/spr_fp_up/spr_fp_up.yy",},"order":2,},
     {"id":{"name":"spr_mp_down","path":"sprites/spr_mp_down/spr_mp_down.yy",},"order":0,},
@@ -47,6 +48,7 @@
     {"id":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},"order":0,},
     {"id":{"name":"obj_textTest","path":"objects/obj_textTest/obj_textTest.yy",},"order":4,},
     {"id":{"name":"spr_mp_up","path":"sprites/spr_mp_up/spr_mp_up.yy",},"order":3,},
+    {"id":{"name":"spr_angry_man_die","path":"sprites/spr_angry_man_die/spr_angry_man_die.yy",},"order":18,},
     {"id":{"name":"spr_fp_right_throw","path":"sprites/spr_fp_right_throw/spr_fp_right_throw.yy",},"order":6,},
     {"id":{"name":"spr_fp_right_aim","path":"sprites/spr_fp_right_aim/spr_fp_right_aim.yy",},"order":5,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":1,},
