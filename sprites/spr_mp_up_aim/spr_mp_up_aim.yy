@@ -50,7 +50,7 @@
     "spriteId": {"name":"spr_mp_up_aim","path":"sprites/spr_mp_up_aim/spr_mp_up_aim.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

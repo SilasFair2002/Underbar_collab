@@ -9,6 +9,7 @@ if(global.can_move){
 	//aim knife
 	if (mouse_check_button_pressed(mb_left)){
 		state = scr_player_aim
+		image_index = 0
 	}
 	//movement
 	if (global.gender = "male"){//if the player is a male

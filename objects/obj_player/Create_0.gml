@@ -1,4 +1,6 @@
 spd = 1
+attack_pause = 20 // how long the player pauses after throwing a knife
+
 global.can_move = true
 
 
