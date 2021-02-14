@@ -3,6 +3,7 @@
     {"id":{"name":"spr_fp_down","path":"sprites/spr_fp_down/spr_fp_down.yy",},"order":4,},
     {"id":{"name":"scr_player_aim","path":"scripts/scr_player_aim/scr_player_aim.yy",},"order":6,},
     {"id":{"name":"spr_mp_left_aim","path":"sprites/spr_mp_left_aim/spr_mp_left_aim.yy",},"order":1,},
+    {"id":{"name":"spr_blood_puddle","path":"sprites/spr_blood_puddle/spr_blood_puddle.yy",},"order":0,},
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},"order":0,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":3,},
     {"id":{"name":"spr_fp_left_throw","path":"sprites/spr_fp_left_throw/spr_fp_left_throw.yy",},"order":4,},
@@ -12,6 +13,7 @@
     {"id":{"name":"spr_fp_down_throw","path":"sprites/spr_fp_down_throw/spr_fp_down_throw.yy",},"order":2,},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},"order":12,},
     {"id":{"name":"spr_fp_down_aim","path":"sprites/spr_fp_down_aim/spr_fp_down_aim.yy",},"order":1,},
+    {"id":{"name":"spr_blood_particles","path":"sprites/spr_blood_particles/spr_blood_particles.yy",},"order":1,},
     {"id":{"name":"scr_textbox","path":"scripts/scr_textbox/scr_textbox.yy",},"order":2,},
     {"id":{"name":"spr_fp_up_throw","path":"sprites/spr_fp_up_throw/spr_fp_up_throw.yy",},"order":8,},
     {"id":{"name":"scr_init_text","path":"scripts/scr_init_text/scr_init_text.yy",},"order":0,},
@@ -91,6 +93,7 @@
     {"folderPath":"folders/Sprites/Player/Male.yy","order":14,"resourceVersion":"1.0","name":"Male","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Player/Female.yy","order":15,"resourceVersion":"1.0","name":"Female","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Player/Female/Fighting.yy","order":3,"resourceVersion":"1.0","name":"Fighting","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/blood.yy","order":14,"resourceVersion":"1.0","name":"blood","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
