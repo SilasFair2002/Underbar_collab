@@ -11,3 +11,6 @@ t = 0 //timer for text effects
 subImg = 0 //sub image for the face box
 chars[0] = ""
 scr_textbox_position()
+
+// player cannot talk during dialogue
+global.can_move = false 
