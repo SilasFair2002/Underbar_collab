@@ -14,6 +14,7 @@
     {"id":{"name":"spr_fp_left_aim","path":"sprites/spr_fp_left_aim/spr_fp_left_aim.yy",},"order":3,},
     {"id":{"name":"scr_player_moving","path":"scripts/scr_player_moving/scr_player_moving.yy",},"order":5,},
     {"id":{"name":"spr_angry_walk_left","path":"sprites/spr_angry_walk_left/spr_angry_walk_left.yy",},"order":3,},
+    {"id":{"name":"scr_p_blood_splatter","path":"scripts/scr_p_blood_splatter/scr_p_blood_splatter.yy",},"order":11,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":8,},
     {"id":{"name":"spr_fp_down_throw","path":"sprites/spr_fp_down_throw/spr_fp_down_throw.yy",},"order":2,},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},"order":12,},

@@ -1,9 +1,9 @@
 //aim
 function scr_player_aim(){
-image_speed = 1
+image_speed = 2
 
 
-var pd = point_direction(x,y,mouse_x,mouse_y)
+var pd = point_direction(x,y,mouse_x,mouse_y+10)
 
 	//switch sprite to aiming sprite
 	if (global.gender = "male"){
