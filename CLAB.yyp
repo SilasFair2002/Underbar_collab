@@ -51,7 +51,6 @@
     {"id":{"name":"spr_mp_down","path":"sprites/spr_mp_down/spr_mp_down.yy",},"order":0,},
     {"id":{"name":"spr_mp_left_throw","path":"sprites/spr_mp_left_throw/spr_mp_left_throw.yy",},"order":5,},
     {"id":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},"order":0,},
-    {"id":{"name":"obj_angry_man","path":"objects/obj_angry_man/obj_angry_man.yy",},"order":8,},
     {"id":{"name":"obj_textTest","path":"objects/obj_textTest/obj_textTest.yy",},"order":4,},
     {"id":{"name":"spr_mp_up","path":"sprites/spr_mp_up/spr_mp_up.yy",},"order":3,},
     {"id":{"name":"spr_angry_man_die","path":"sprites/spr_angry_man_die/spr_angry_man_die.yy",},"order":0,},
