@@ -9,6 +9,7 @@ if(timer<text[index].spd){
 	timer = 0
 }
 
+scr_question() //question code runs in a script
 if(n=string_length(text[index].text)-1 and keyboard_check_pressed(vk_space)){ //on the last character and space is pressed
 	n = 0;
 	timer = 0;

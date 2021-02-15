@@ -9,6 +9,7 @@ function scr_init_text(txt, spkr){
 			spd = 2.5
 			effect = txtFX.none
 			speaker = spkr
+			isQuestion = false
 		}
 	}
 	return textArray

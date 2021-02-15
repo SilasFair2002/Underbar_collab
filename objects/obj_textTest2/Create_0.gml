@@ -9,24 +9,21 @@
 //text[1].effect = txtFX.wave
 //text[3].effect = txtFX.shake
 
-txt[0] = "Whats up"
-txt[1] = "You got games on yo phone?"
+txt[0] = "Hey there shawty, whats good?"
+txt[1] = "..."
+txt[2] = "hey ma, don't be like that damn I jus tryna cop on some no cap you know what I'm sayin bruh"
+txt[3] = "..."
+txt[4] = "what?"
+txt[5] = "ey bro don't worry its good I'm chill wid it but aint gonna lie this fire straight up cappin bruh, kinda sus ngl."
+txt[6] = "..."
+txt[7] = "huh?"
+txt[8] = "THIS IS A NO CAP FOR REAL STRAIGHT FIRE LIT AF BRUH MOMENT!"
 
 text = scr_init_text(txt,"fp");
 
-text[1].isQuestion = true
-option[0] = "No I do not."
-option[1] = "I have iphone amogus"
-text[1].options = option
-
-rsp0[0] = "WHAT!!!"
-rsp0[1] = "HOW!?!?!"
-rsp0 = scr_init_text(rsp0,"fp")
-rsp0[0].effect = txtFX.shake
-rsp0[1].effect = txtFX.shake
-text[1].responce[0] = rsp0
-
-rsp1[0] = "Haha kinda sus get it?"
-rsp1 = scr_init_text(rsp1,"fp")
-rsp1[0].effect = txtFX.wave
-text[1].responce[1] = rsp1
+text[0].speaker = "mp"
+text[2].speaker = "mp"
+text[5].speaker = "mp"
+text[8].speaker = "mp"
+text[8].effect = txtFX.shake
+text[1].spd = 12

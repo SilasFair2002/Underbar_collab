@@ -5,6 +5,7 @@ n = 0 //how many characters through current text it is
 timer = 0 //counts up and times the text appearing
 skipped = false //checks if text has been skipped
 skippedAt = 0 //when it was skipped
+selected = 0//what option is selected (questions only)
 
 t = 0 //timer for text effects
 
