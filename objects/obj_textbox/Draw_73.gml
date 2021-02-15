@@ -61,3 +61,5 @@ for(var i = 0; i<=n; i++){
 
 //i'm drawing the face in a script so as not to complicate things
 scr_draw_face(text[index].speaker, 3);
+//same goes for the question thing
+scr_draw_question()

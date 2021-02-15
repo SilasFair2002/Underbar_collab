@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Text.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_textbox_position",
+  "name": "scr_draw_question",
   "tags": [],
   "resourceType": "GMScript",
 }
