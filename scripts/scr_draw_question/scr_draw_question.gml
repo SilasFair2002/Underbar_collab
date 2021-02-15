@@ -15,10 +15,10 @@ if(n=string_length(text[index].text)-1 and text[index].isQuestion){
 	var width = spacing-(spacing/4)
 	
 	for(var i = 0; i<options; i++){
-		var xpos = (spacing*(i+1))-width/2//(string_width(text[index].options[i])/2)
+		var xpos = (spacing*(i+1))-min(width, string_length(text[index].options[i]))/2//(string_width(text[index].options[i])/2)
 		draw_set_font(fnt_question) //set font
 		draw_set_color(c_black) //set color
-		draw_text_ext(x+xpos,y+ypos,text[index].options[i],9,width)
+		draw_text_ext(x+xpos,y+ypos,text[index].options[i],8,width)
 		
 		if(selected = i){
 			draw_set_color(c_white)
