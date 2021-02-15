@@ -2,5 +2,6 @@
 hp = 5
 spd = 1
 pwr = 1
-vsp = 0
-hsp = 0
+
+
+hit = 0 //whether this object has been hit and amount of damage dealt by hit

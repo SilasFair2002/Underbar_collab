@@ -17,7 +17,7 @@ text = scr_init_text(txt,"fp");
 text[1].isQuestion = true
 option[0] = "No I do not."
 option[1] = "I have iphone amogus"
-option[2] = "Bugger off mate"
+option[2] = "I have PE Minecraft"
 text[1].options = option
 
 rsp0[0] = "WHAT!!!"
@@ -33,7 +33,7 @@ rsp1[0].effect = txtFX.wave
 text[1].responce[1] = rsp1
 
 
-rsp2[0] = "British"
+rsp2[0] = "I don't like the pixels."
 rsp2 = scr_init_text(rsp2,"fp")
 rsp2[0].effect = txtFX.wave
 text[1].responce[2] = rsp2

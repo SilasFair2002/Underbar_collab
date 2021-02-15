@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_angry_man_die",
-    "path": "sprites/spr_angry_man_die/spr_angry_man_die.yy",
+    "name": "spr_angry_walk_right",
+    "path": "sprites/spr_angry_walk_right/spr_angry_walk_right.yy",
   },
   "solid": false,
   "visible": true,
