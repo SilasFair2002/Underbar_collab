@@ -92,8 +92,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47449fbd-aa20-4366-ad8f-9497c0a8725a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Bad guys",
+    "path": "folders/Sprites/Bad guys.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_angry_man_die",
