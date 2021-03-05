@@ -13,6 +13,7 @@ if (global.gender = "male"){
 }else{
 	sprite_index = spr_fp_down	
 }
+global.player = self
 
 //set up state
 state = scr_player_moving

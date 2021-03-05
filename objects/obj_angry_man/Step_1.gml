@@ -37,3 +37,72 @@ if (hurt_timer <=0){
 	hurt_timer --
 }
 
+//following and attacking the player
+
+var pp = global.player //shorten global.player to pp
+var can_attack = distance_to_object(pp) < attack_range // if the player is close enough to attack
+
+//look for the player
+if (distance_to_object(pp) < 50) or !(collision_line(x,y, obj_solid, pp.x,pp.y,false,true) and (distance_to_object(pp) < 300)){
+	player_detected = true
+}
+
+
+
+//states
+// what to do if the player is idle
+if (state = "idle"){
+	speed = 0
+	image_index = 0
+	sprite_index = spr_angry_man_walk
+	if (player_detected = true){  // start chasing the player
+		state = "chase"
+	}
+}
+
+//what to do if the player is chasing
+if (state = "chase"){
+	sprite_index = spr_angry_man_walk
+	if !place_meeting(x+hspeed,y+hspeed,obj_solid){//check for collision with solid
+		move_towards_point(pp.x, pp.y, spd) // move toward the player
+	}else{
+		move_towards_point(pp.x, pp.y, -spd) // move toward the player	
+	}
+
+	if (can_attack){ //check if the conditions have been met for an attack
+		image_index = 0 //start the attacking animation from the first frame
+		state = "attack"
+	}
+}
+
+//do this if the player is attacking
+if (state = "attack"){
+	sprite_index = spr_angry_man_attack
+	if (image_index >= image_number-1){
+		if (can_attack) {
+			obj_player.hit = pwr
+		}
+		state = "chase"
+	}
+	
+}
+
+//face the direction he is moving
+if hspeed >0{
+	image_xscale = 1
+}
+if hspeed <0{
+	image_xscale = -1
+}
+
+
+
+
+
+
+//Attack the player
+if (distance_to_object(global.player) < 10){
+	attack_timer = 10
+	
+}
+
