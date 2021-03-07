@@ -14,17 +14,12 @@ if (hit > 0)and (hurt_timer <= 0){
 	//get killed
 	if hp <=0{
 		part_particles_create(global.ps,x,y-10,global.p_blood,10)
-		part_particles_create(global.ps,x,y,global.p_blood_splatter,20)
 		instance_create_depth(x,y,0,obj_blood_stain)
-		var spr = sprite_index
+		var ix = image_xscale
 		//create dead version of s
 		with(instance_create_depth(x,y,depth, obj_angry_man_die)){
 			//die facing the right direction
-			if (spr = spr_angry_walk_left) {
-				sprite_index = spr_angry_man_die_left
-			}else{
-				sprite_index = spr_angry_man_die_right
-			}
+			image_xscale = ix
 		}
 		instance_destroy()//destroy alive version
 	}
@@ -65,7 +60,13 @@ if (state = "chase"){
 	sprite_index = spr_angry_man_walk
 	if !place_meeting(x+hspeed,y+hspeed,obj_solid){//check for collision with solid
 		move_towards_point(pp.x, pp.y, spd) // move toward the player
+		//face the direction he is moving
+		if hspeed >0	image_xscale = 1
+		if hspeed <0	image_xscale = -1
+
 	}else{
+		x = xprevious
+		y = yprevious
 		move_towards_point(pp.x, pp.y, -spd) // move toward the player	
 	}
 
@@ -87,13 +88,6 @@ if (state = "attack"){
 	
 }
 
-//face the direction he is moving
-if hspeed >0{
-	image_xscale = 1
-}
-if hspeed <0{
-	image_xscale = -1
-}
 
 
 

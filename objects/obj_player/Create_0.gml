@@ -1,7 +1,10 @@
 spd = 1
+hp = 10
 attack_pause = 20 // how long the player pauses after throwing a knife
 knife_throw_spd = 3 // how fast the knives are thrown
 pwr = 1 // the amount of damage the knives do
+hit = 0
+hurt_timer = 0
 
 global.can_move = true
 

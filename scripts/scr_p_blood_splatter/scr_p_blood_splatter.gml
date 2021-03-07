@@ -19,7 +19,7 @@ function scr_p_blood_splatter(){
 	part_type_death(p, 1, p2)
 	part_type_sprite(p2,spr_blood_particles,false,false,true)
 	part_type_life(p2,200,5000)
-	part_type_alpha2(p2, 1, 0.1)
+	part_type_alpha2(p2, 0.5, 0.1)
 	part_type_size(p2,0.6,1.5,0,0)
 
 
